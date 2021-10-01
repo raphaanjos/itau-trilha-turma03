@@ -13,15 +13,11 @@ public class Main04 {
         C = scan.nextInt();
         D = scan.nextInt();
 
-        if ((B > C && D > A) && ((C + D > A + B) && (C > 0)) && (D > 0 && A % 2 == 0)) {
+        if ((B > C) && (D > A) && (((C + D) > (A + B)) && (C > 0)) && (D > 0) && (A % 2 == 0)) {
             System.out.printf("Valores aceitos%n");
         } else {
             System.out.printf("Valores não aceitos%n");
         }
-
         scan.close();
-
-        scan.close();
-
     }
 }
